@@ -1,0 +1,12 @@
+services:
+  - type: pserv
+    name: mssql
+    env: image
+    image:
+      url: mcr.microsoft.com/mssql/server:2022-latest
+    plan: standard
+    autoDeploy: false
+#     disk:
+#       name: data
+#       mountPath: /var/lib/clickhouse
+#       sizeGB: 10
