@@ -3,7 +3,7 @@ services:
     name: mssql
     env: image
     image:
-      url: mcr.microsoft.com/mssql/server:2022-latest
+      url: mcr.microsoft.com/azure-sql-edge:1.0.4
     plan: standard
     autoDeploy: false
     envVars:
