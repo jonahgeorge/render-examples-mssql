@@ -3,7 +3,7 @@ services:
     name: mssql
     env: image
     image:
-      url: mcr.microsoft.com/mssql/server:2017-latest
+      url: mcr.microsoft.com/mssql/server:2019-latest
     plan: standard
     autoDeploy: false
     envVars:
