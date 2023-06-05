@@ -11,8 +11,7 @@ services:
         value: "Y"
       - key: MSSQL_SA_PASSWORD
         value: "YourStrong@Passw0rd"
-
-#     disk:
-#       name: data
-#       mountPath: /var/lib/clickhouse
-#       sizeGB: 10
+    disk:
+      name: data
+      mountPath: mountPath: /var/opt/mssql
+      sizeGB: 10
