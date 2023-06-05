@@ -13,5 +13,5 @@ services:
         value: "YourStrong@Passw0rd"
     disk:
       name: data
-      mountPath: mountPath: /var/opt/mssql
+      mountPath: /var/opt/mssql
       sizeGB: 10
