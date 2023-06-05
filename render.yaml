@@ -1,9 +1,14 @@
 services:
   - type: pserv
     name: mssql
-    env: image
-    image:
-      url: mcr.microsoft.com/mssql/server:2017-latest
+#     env: image
+#     image:
+#       url: mcr.microsoft.com/mssql/server:2017-latest
+
+    env: docker
+    repo: https://github.com/jonahgeorge/render-examples-mssql.git
+    branch: main
+    
     plan: standard
     autoDeploy: false
     envVars:
